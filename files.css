@@ -1,0 +1,53 @@
+body {background-image: url(heartexplode.gif);
+cursor: url('drool.png'), auto;}
+
+div {height: 100px;
+  width:100px;}
+
+  @keyframes bounce {
+    0% {top:0px
+    }
+    100% {top:800px
+    }
+  }
+
+#red {
+  background-color: red;
+  position: absolute;
+  top: 200px;
+  right:100px;
+  z-index: 2;
+  transition-property: background-color: purple;
+  transition-duration: 1s;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;}
+#red:hover{
+  background-color: purple;
+}
+#green {
+  background-color: green;
+  position: absolute;
+  top:250px;
+  right:150px;}
+#blue {
+  background-color: blue;
+  position: absolute;
+  top: -20px}
+  #blue:hover
+  {background-image: url("IMG_0223 copy.jpg"); height: 100px; width:100px;
+  position: fixed; top: 100px;}
+
+h1 {color:#478aed;font-size: 100px;
+  font-family: sans-serif; text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-image: url(peach-booty.gif);
+  background-repeat: repeat;
+  background-size: contain;}
+a {color:green;}
+
+#letter {color: orange;}
+#hello {color: #3299a8;}
